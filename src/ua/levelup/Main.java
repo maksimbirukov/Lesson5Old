@@ -9,9 +9,9 @@ public class Main {
 
         //1 Use class Reader for read both Matrix1.txt and Matrix2.txt files
 
-        //2 Use method getMatrixFromString for parsing stringValue to matrix int[][]
+        //2 Use method getMatrixFromString from class MatrixUtils for parsing stringValue to matrix int[][]
 
-        //3 Use method printMatrix for printing matrix in console (Do not use deepToString)
+        //3 Use method printMatrix from class MatrixUtils for printing matrix in console (Do not use deepToString)
         /*
         * It should look like
         * 3 0 4
@@ -21,13 +21,5 @@ public class Main {
          */
     }
 
-    private static void printMatrix(int[][] matrixFromString) {
-        // TODO
-        throw new UnsupportedOperationException("Implement here your logic");
-    }
 
-    private static int[][] getMatrixFromString(String matrixAsString) {
-        // TODO
-        throw new UnsupportedOperationException("Implement here your logic");
-    }
 }
