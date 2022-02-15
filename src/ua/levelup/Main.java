@@ -29,7 +29,7 @@ public class Main {
         //create method for sum of all elements in one line
         //create method for sum of all elements in one column
 
-        //Create new array 20 x 20 fiil with random int values
+        //Create new array 20 x 20 fill with random int values
         //create method which collect all elements from diagonals
     }
 
