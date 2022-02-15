@@ -19,6 +19,18 @@ public class Main {
         * 8 2 1
         * and without any commas
          */
+
+
+        //create method for looking min element in array and print its coordinates
+        //create method for looking max element in array and print its coordinates
+
+        //create methods for finding min and max in only one column we need to find
+
+        //create method for sum of all elements in one line
+        //create method for sum of all elements in one column
+
+        //Create new array 20 x 20 fiil with random int values
+        //create method which collect all elements from diagonals
     }
 
 
