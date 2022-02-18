@@ -12,8 +12,6 @@ public class ConsoleMenu {
                 "\n    3. Send email with results" +
                 "\ntype q for exit");
 
-        boolean check = false;
-
         while(true) {
             String str = scan.nextLine();
             int value;
