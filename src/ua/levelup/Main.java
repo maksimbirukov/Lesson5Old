@@ -31,6 +31,22 @@ public class Main {
 
         //Create new array 20 x 20 fill with random int values
         //create method which collect all elements from diagonals
+
+        Reader reader = new Reader();
+
+        String strMatrix1 = new String(reader.readFromFile(MATRIX_1));
+        String strMatrix2 = new String(reader.readFromFile(MATRIX_2));
+
+        MatrixUtils.printMatrix(MatrixUtils.getMatrixFromString(strMatrix1));
+
+        MatrixUtils.printMatrix(MatrixUtils.getMatrixFromString(strMatrix2));
+
+        MatrixUtils.printMinPlusCoordinates(MatrixUtils.getMatrixFromString(strMatrix1));
+        MatrixUtils.printMinPlusCoordinates(MatrixUtils.getMatrixFromString(strMatrix2));
+        MatrixUtils.printMaxPlusCoordinates(MatrixUtils.getMatrixFromString(strMatrix1));
+        MatrixUtils.printMaxPlusCoordinates(MatrixUtils.getMatrixFromString(strMatrix2));
+        MatrixUtils.minAndMaxInColumn(MatrixUtils.getMatrixFromString(strMatrix1), 2);
+
     }
 
 
